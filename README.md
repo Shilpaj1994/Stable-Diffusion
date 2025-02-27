@@ -83,3 +83,10 @@
 
 - The application is available on Hugging Face Space.
 - The application is available [here](https://huggingface.co/spaces/shilpaj/Stable-Diffusion-with-Styles)
+
+---
+
+## References
+- [SD concept library](https://huggingface.co/sd-concepts-library)
+- [Create custom concept](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb#scrollTo=gTlUJYB1QNSN)
+- [Stable Diffusion Deep Dive](https://github.com/fastai/diffusion-nbs/blob/master/Stable%20Diffusion%20Deep%20Dive.ipynb)
