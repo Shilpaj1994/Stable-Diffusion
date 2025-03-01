@@ -10,6 +10,7 @@
 - In addition to the concept style, a custom loss function (vignette loss) is used to enhance the image generation.  
 
 
+
 ## Implementation Overview
 
 ![image-20250225122334818](README.assets/image-20250225122334818.png)
@@ -21,6 +22,7 @@
 - A custom loss function (vignette loss) is also added during reverse diffusion process to enhance the image generation.
 - The final image is obtained by passing the denoised latent space through the VAE decoder.
 - The implementation is available in this [Notebook](Guided_Stable_Diffusion_with_Styles.ipynb)  
+
 
 
 ## Custom Loss Function (Vignette Loss)
@@ -79,14 +81,28 @@
 
 ---
 
+
+
 ## Try it out!
 
+- Generate single image
+
+![App](README.assets/app.gif)
+
+- Generate multiple images
+
+  ![image-20250301160634867](README.assets/image-20250301160634867.png)
+
 - The application is available on Hugging Face Space.
-- The application is available [here](https://huggingface.co/spaces/shilpaj/Stable-Diffusion-with-Styles)
+
+- The application is available [here](https://huggingface.co/spaces/Shilpaj/StableDiffusion)
 
 ---
 
+
+
 ## References
+
 - [SD concept library](https://huggingface.co/sd-concepts-library)
 - [Create custom concept](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb#scrollTo=gTlUJYB1QNSN)
 - [Stable Diffusion Deep Dive](https://github.com/fastai/diffusion-nbs/blob/master/Stable%20Diffusion%20Deep%20Dive.ipynb)
